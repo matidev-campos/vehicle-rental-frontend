@@ -1,10 +1,11 @@
 
 import './App.css'
 import type {} from "@/types";
+import AppRouter from './routes/AppRouter';
 
 
 function App() {
-  return <h1>Vehicle Rental System</h1>
+  return <AppRouter />
 }
 
 export default App
