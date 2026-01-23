@@ -16,5 +16,13 @@ export const vehiclesMock: Vehicle[] = [
         year: 2014,
         pricePerDay: 40,
         status: "AVAILABLE",
-    }
+    },
+    {
+        id: 3,
+        brand: "Renault",
+        model: "Clio",
+        year: 2018,
+        pricePerDay: 20,
+        status: "RENTED",
+    },
 ];
