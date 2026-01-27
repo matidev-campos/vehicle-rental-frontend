@@ -24,7 +24,8 @@ export function getVehicles(): Vehicle[] {
 }
 
 export function getVehicleById(id: number): Vehicle | undefined {
-    return vehiclesMock.find((Vehicle) => Vehicle.id === id);
+    const vehicle = loadVehicles();
+    return vehicle.find(v => v.id === id);
 }
 
 export function isVehicleAvailable(vehicle: Vehicle): boolean{
